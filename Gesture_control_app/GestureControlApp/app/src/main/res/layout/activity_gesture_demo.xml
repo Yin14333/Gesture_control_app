@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GestureDemoActivity">
+
+    <VideoView
+        android:id="@+id/gesture_demo_video"
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/play_demo"
+        android:layout_width="120dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="524dp"
+        android:layout_marginEnd="32dp"
+        android:text="Play" />
+
+    <Button
+        android:id="@+id/practice_gestures"
+        android:layout_width="120dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="524dp"
+        android:layout_marginEnd="32dp"
+        android:text="Practice" />
+
+
+
+</RelativeLayout>
